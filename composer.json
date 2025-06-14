@@ -63,7 +63,8 @@
     "mineadmin/jwt": "~3.0",
     "mineadmin/support": "~3.0",
     "mineadmin/swagger": "~3.0",
-    "mineadmin/upload": "~3.0"
+    "mineadmin/upload": "~3.0",
+    "ext-xlswriter": "*"
   },
   "require-dev": {
     "doctrine/dbal": "^3.6",
