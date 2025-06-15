@@ -12,6 +12,7 @@ declare(strict_types=1);
 
 namespace App\Command;
 
+use App\Model\Permission\Department;
 use App\Model\Permission\Menu;
 use App\Model\Permission\Role;
 use App\Model\Permission\User;

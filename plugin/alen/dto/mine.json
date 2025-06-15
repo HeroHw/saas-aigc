@@ -1,0 +1,22 @@
+{
+  "name": "developer_alen/hyperfDtoExportPligin",
+  "version": "1.0.0",
+  "type": "backend",
+  "description": "性能超好的数据导入导出插件",
+  "author": [
+    {
+      "name": "Alen"
+    }
+  ],
+  "composer": {
+    "require": {
+      "phpoffice/phpspreadsheet": "^1.24"
+    },
+    "psr-4": {
+      "Plugin\\Alen\\Dto\\": "src"
+    },
+    "installScript": "Plugin\\Alen\\Dto\\InstallScript",
+    "uninstallScript": "Plugin\\Alen\\Dto\\UninstallScript",
+    "config": "Plugin\\Alen\\Dto\\ConfigProvider"
+  }
+}
